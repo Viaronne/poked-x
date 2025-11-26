@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: linear-gradient(to bottom, red,orange);
+}
+.pokedex{
+    height: 500px;
+    max-width: 425px;
+}
+main{
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    margin-top: 2%;
+    position: relative;
+}
+.pokemonimg{
+    position: absolute;
+    bottom: 35%;
+    left: 30%;
+    height: 110px;
+}
